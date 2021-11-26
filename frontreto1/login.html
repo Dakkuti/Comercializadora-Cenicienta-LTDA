@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+    <link rel="stylesheet" href="css/login.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Acceso al Sistema</title>
+</head>
+
+<body>
+    <div id="login">
+
+    </div>
+
+<div class="grid">
+    <div class="row">
+        <div class="col">
+            
+            <form>
+                <p id="title-form">Iniciar sesión</p>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Correo Eléctronico:</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="password" required>
+                </div>
+
+                  <p class="form-check-label" for="exampleCheck1">
+                      ¿Aún no tienes cuenta? 
+                      <a href="/frontreto1/registro.html"> Registrate</a>
+                </p>
+            </br>
+                <button type="button" class="btn" onclick="login">Ingresar</button>
+              </form>
+
+        </div>
+    
+        <div class="col contenedor">
+            <h2>Comercializadora cenicienta LTDA</h2>
+            <img src="img/logo.png" id="contenedor-img"/>
+        </div>
+
+      </div>
+    </div>
+<script src="/frontreto1/js/ajax.js"></script>
+</body>
+
+</html>
