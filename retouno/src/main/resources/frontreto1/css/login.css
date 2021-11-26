@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima+Madurai:wght@300&family=Cookie&family=Courgette&family=Merienda&family=Neucha&family=Pacifico&family=Poppins:wght@200&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: 1965px;
+  /* height: 100vh; */
+  background-image: url(/frontreto1/img/fondo.jpg);
+}
+
+
+.grid{
+  display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.row{
+  
+  flex-flow: wrap-reverse;
+}
+
+form {
+  /*width: 410px;*/
+  height: 451px;
+  background: #cbcbcb40;
+  padding: 35px;
+  border: 4px solid #ffffff;
+  border-radius: 30px;
+  padding-top: 65px;
+  margin: 0px auto;
+}
+
+#title-form
+{
+  text-align: center;
+  font-size: 25px;
+  color: #7c85ff;
+  /*font-weight: bold;*/
+}
+
+.col.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.col.contenedor h2{
+
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+
+#contenedor-img{
+     width: 320px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.btn{
+  background: #5f6bff7d;
+  display: flex;
+  margin: 0px auto;
+  width: 200px;
+  justify-content: center;
+}
