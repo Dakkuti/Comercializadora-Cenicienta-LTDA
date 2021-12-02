@@ -21,29 +21,32 @@ body {
 }
 
 form {
-  /*width: 410px;*/
-  height: 451px;
-  background: #cbcbcb40;
-  padding: 35px;
+  width: 415px;
+  height: 540px;
+  background: #ffffff7a;
+  padding: 50px;
   border: 4px solid #ffffff;
   border-radius: 30px;
-  padding-top: 65px;
+  padding-top: 75px;
   margin: 0px auto;
+  position: inherit;
+  top: -50px;
+  left: 90px;
+  color: #727272;
+  font-weight: 500;
 }
-
-#title-form
-{
+#title-form {
   text-align: center;
-  font-size: 25px;
-  color: #7c85ff;
-  /*font-weight: bold;*/
+  font-size: 35px;
+  margin-bottom: 40px;
+ /* border-bottom: 3px solid #d9d9d9;*/
 }
-
 .col.contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-left: 106px;
 }
 
 .col.contenedor h2{
@@ -51,17 +54,79 @@ form {
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
-
-#contenedor-img{
-     width: 320px;
-    height: 300px;
-    margin-top: 60px;
+#contenedor-img {
+  width: 390px;
+  height: 410px;
+  margin-top: -100px;
 }
 
-.btn{
-  background: #5f6bff7d;
+.btn {
+  background: #ef9f3f;
   display: flex;
-  margin: 0px auto;
+  margin: 24px auto;
+  color: white;
   width: 200px;
   justify-content: center;
+}
+
+.col.contenedor p {
+    font-size: 25px;
+    color: #626262;
+    margin-top: 20px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-right: -15px; */
+  margin-left: -105px;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  #contenedor-img {
+    width: 310px;
+    height: 285px;
+    margin-left: 70px;
+  }
+
+  .col.contenedor p {
+    margin-left: 80px;
+    margin-bottom: 75px;
+  }
+}
+@media only screen and (max-width: 375px) {
+
+  #contenedor-img {
+    margin-left: 55px;
+  }
+
+  .col.contenedor p {
+    margin-left: 60px;
+    margin-bottom: 75px;
+
+  }
+
+  form {
+    left: 73px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  #contenedor-img {
+    margin-left: 10px;
+  }
+
+  .col.contenedor p {
+    margin-left: 8px;
+    margin-bottom: 85px;
+
+  }
+
+  form {
+    left: 55px;
+  }
 }

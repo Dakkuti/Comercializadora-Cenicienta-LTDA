@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.usa.retouno.RetounoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.089 s - in com.usa.retouno.RetounoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.996 s - in com.usa.retouno.RetounoApplicationTests
