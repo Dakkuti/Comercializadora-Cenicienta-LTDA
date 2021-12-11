@@ -1,0 +1,11 @@
+com\retodos\service\CleaningService.class
+com\retodos\repository\crud\CleaningCrudRepository.class
+com\retodos\RetodosApplication.class
+com\retodos\repository\UserRepository.class
+com\retodos\model\User.class
+com\retodos\repository\CleaningRepository.class
+com\retodos\repository\crud\UserCrudRepository.class
+com\retodos\controller\CleaningController.class
+com\retodos\service\UserService.class
+com\retodos\controller\UserController.class
+com\retodos\model\Cleaning.class
