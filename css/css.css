@@ -1,0 +1,40 @@
+
+#logo-header{
+    width: 60px;
+    margin-top: -13px;
+    
+}
+
+
+/*NAVBAR*/
+
+.navbar.navbar-expand-lg{
+    background: #efa955!important;
+}
+
+  /*HEADER*/
+
+  .mask {
+    background-color: rgb(233 233 233 / 23%);
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.text-white{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .text-white img{
+    width: 100px;
+    margin: 25px;
+  }
+
+
+  .text-white h1{
+    text-align: center;
+  }
+  .text-white p {
+    max-width: 550px;
+    padding: 5px;
+}
