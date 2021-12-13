@@ -19,16 +19,13 @@
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
-                        <form action="registro.php" method="POST" id="login-form" class="form" >
+                        <form action="" method="POST" id="login-form" class="form" >
                             <h3 class="text-center text-info">Crear Cuenta</h3>
                             <div class="form-group">
                                 <label for="username" class="text-info">Nombre:</label><br />
                                 <input type="username" name="username" id="username" class="form-control" required pattern="[A-Za-z]+"/>
                             </div>
-                            <div class="form-group">
-                                <label for="user" class="text-info">Nombre de usuario</label><br />
-                                <input type="text" name="user" id="user" class="form-control" required />
-                            </div>
+
                             <div class="form-group">
                                 <label for="useremail" class="text-info">E-mail:</label><br />
                                 <input type="email" name="useremail" id="useremail" class="form-control" required />
@@ -39,11 +36,11 @@
                                 <input type="password" name="password" id="password" class="form-control" required />
                             </div>
                             <div class="form-group text-center">
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Crear" />                                
+                                <a type="submit" name="submit" class="btn btn-info btn-md" value="Crear" onclick="registrar()">Crear</a>                               
                             </div>
                             <div class="form-group text-center">
                                 <label for="remember-me" class="text-info">
-                                    <span>Ya tienes una cuenta? <a href="login.html" class="text-info">Inicia sesión aqui</a></span>
+                                    <span>Ya tienes una cuenta? <a href="index.html" class="text-info">Inicia sesión aqui</a></span>
                                 </label>
                             </div>
                         </form>
@@ -52,6 +49,9 @@
             </div>
         </div>
     </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/registro.js"></script>
 </body>
 
 </html>
